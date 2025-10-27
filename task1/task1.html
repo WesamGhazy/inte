@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Car Brand Flip Cards</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrapper">
+    <h1>Compare Car Brands</h1>
+    <p class="subhead">Click a card to flip for general company info.</p>
+
+    <section class="cards">
+
+      <!-- Volkswagen -->
+      <article class="card">
+        <input type="checkbox" id="vw" class="toggle" aria-label="Toggle Volkswagen details" />
+        <label class="card-inner" for="vw" role="button" tabindex="0">
+          <!-- FRONT -->
+          <div class="card-face card-front">
+            <header class="brand">
+              <img class="logo" alt="Volkswagen logo"
+                   src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg" />
+              <h2>Volkswagen</h2>
+            </header>
+
+            <figure class="photo">
+              <img alt="Volkswagen Golf (Mk8)"
+                   src="https://upload.wikimedia.org/wikipedia/commons/3/32/Volkswagen_Golf_VIII_IMG_2609.jpg" />
+            </figure>
+
+            <div class="actions">
+              <span class="btn">Details</span>
+            </div>
+          </div>
+
+          <!-- BACK -->
+          <div class="card-face card-back">
+            <header class="brand">
+              <img class="logo" alt="Volkswagen logo"
+                   src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg" />
+              <h3>Volkswagen</h3>
+            </header>
+
+            <div class="copy">
+              <p>
+                German automaker based in Wolfsburg. Known for practical, well-engineered cars
+                like the Golf and Passat. Focus on everyday usability, solid tech, and value.
+              </p>
+              <ul class="bullets">
+                <li>Segment: mainstream</li>
+                <li>Reputation: reliability & practicality</li>
+                <li>Models: Golf, Passat, Tiguan</li>
+              </ul>
+            </div>
+
+            <div class="hint">Click again to flip back</div>
+          </div>
+        </label>
+      </article>
+
+      <!-- BMW -->
+      <article class="card">
+        <input type="checkbox" id="bmw" class="toggle" aria-label="Toggle BMW details" />
+        <label class="card-inner" for="bmw" role="button" tabindex="0">
+          <!-- FRONT -->
+          <div class="card-face card-front">
+            <header class="brand">
+              <img class="logo" alt="BMW logo"
+                   src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" />
+              <h2>BMW</h2>
+            </header>
+
+            <figure class="photo">
+              <img alt="BMW 3 Series (G20)"
+                   src="https://upload.wikimedia.org/wikipedia/commons/2/29/BMW_3_Series_%28G20%29.jpg" />
+            </figure>
+
+            <div class="actions">
+              <span class="btn">Details</span>
+            </div>
+          </div>
+
+          <!-- BACK -->
+          <div class="card-face card-back">
+            <header class="brand">
+              <img class="logo" alt="BMW logo"
+                   src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" />
+              <h3>BMW</h3>
+            </header>
+
+            <div class="copy">
+              <p>
+                Munich-based brand emphasizing driver engagement and balanced chassis dynamics.
+                Blends performance with premium comfort across sedans, coupes, and SUVs.
+              </p>
+              <ul class="bullets">
+                <li>Segment: premium/performance</li>
+                <li>Reputation: handling & dynamics</li>
+                <li>Models: 3 Series, 5 Series, X5</li>
+              </ul>
+            </div>
+
+            <div class="hint">Click again to flip back</div>
+          </div>
+        </label>
+      </article>
+
+      <!-- Mercedes-Benz -->
+      <article class="card">
+        <input type="checkbox" id="mb" class="toggle" aria-label="Toggle Mercedes-Benz details" />
+        <label class="card-inner" for="mb" role="button" tabindex="0">
+          <!-- FRONT -->
+          <div class="card-face card-front">
+            <header class="brand">
+              <img class="logo" alt="Mercedes-Benz logo"
+                   src="https://upload.wikimedia.org/wikipedia/commons/4/48/Mercedes-Benz_logo.svg" />
+              <h2>Mercedes-Benz</h2>
+            </header>
+
+            <figure class="photo">
+              <img alt="Mercedes-Benz C-Class (W206)"
+                   src="https://upload.wikimedia.org/wikipedia/commons/4/41/Mercedes-Benz_W206_IMG_5254.jpg" />
+            </figure>
+
+            <div class="actions">
+              <span class="btn">Details</span>
+            </div>
+          </div>
+
+          <!-- BACK -->
+          <div class="card-face card-back">
+            <header class="brand">
+              <img class="logo" alt="Mercedes-Benz logo"
+                   src="https://upload.wikimedia.org/wikipedia/commons/4/48/Mercedes-Benz_logo.svg" />
+              <h3>Mercedes-Benz</h3>
+            </header>
+
+            <div class="copy">
+              <p>
+                Stuttgart-based marque associated with refinement, safety tech, and comfort.
+                Strong lineup from compact sedans to luxury flagships and SUVs.
+              </p>
+              <ul class="bullets">
+                <li>Segment: luxury</li>
+                <li>Reputation: comfort & tech</li>
+                <li>Models: C-Class, E-Class, GLE</li>
+              </ul>
+            </div>
+
+            <div class="hint">Click again to flip back</div>
+          </div>
+        </label>
+      </article>
+
+    </section>
+  </main>
+</body>
+</html>
